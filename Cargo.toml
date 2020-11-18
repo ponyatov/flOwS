@@ -1,0 +1,16 @@
+[package]
+    # \ <section:package>
+    name        = "flows"
+    version     = "0.0.1"
+    authors     = ["Dmitry Ponyatov <dponyatov@gmail.com>"]
+    edition     = "2018"
+    description = "message-passing distributed OS"
+    homepage    = "https://github.com/ponyatov/flOwS"
+    # / <section:package>
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+    # \ <section:dependencies>
+    
+    # / <section:dependencies>

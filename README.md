@@ -5,6 +5,12 @@
 
 github: https://github.com/ponyatov/flOwS
 
+* actor programming model
+* message-based programming
+* binary pattern matching
+* realtime message scheduling
+* distributed clustering
+
 ***
 powered by `metaL`
 

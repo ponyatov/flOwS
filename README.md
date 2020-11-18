@@ -5,11 +5,17 @@
 
 github: https://github.com/ponyatov/flOwS
 
-* actor programming model
-* message-based programming
-* binary pattern matching
-* realtime message scheduling
+* VM-like guest OS
+  * works over any mainstream host OSes
+  * embedded Linux preferred
+  * standalone mode is possible
 * distributed clustering
+  * actor programming model
+  * message-based programming
+  * shared storage
+* IoT targeted
+  * binary pattern matching
+  * realtime message scheduling
 
 ***
 powered by `metaL`

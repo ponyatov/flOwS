@@ -10,9 +10,13 @@ LIB          = $(CWD)/lib
 SRC          = $(CWD)/src
 TMP          = $(CWD)/tmp
 DOC          = $(CWD)/doc
+RBIN         = $(HOME)/.cargo/bin
 # / <section:dirs>
 # \ <section:tools>
 WGET         = wget -c
+RUSTUP       = $(RBIN)/rustup
+RUSTC        = $(RBIN)/rustc
+CARGO        = $(RBIN)/cargo
 # / <section:tools>
 # \ <section:all>
 .PHONY: all
@@ -31,11 +35,20 @@ doc:
 install:
 	$(MAKE) $(OS)_install
 	$(MAKE) doc
+	$(MAKE) rust_install
+.PHONY: rust_install
+rust_install: $(RUSTUP)
+	ls -la $^
+$(RUSTUP):
+	curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+	
+
 # / <section:install>
 # \ <section:update>
 .PHONY: update
 update:
 	$(MAKE) $(OS)_update
+	$(RUSTUP) update
 # / <section:update>
 # \ <section:install/os>
 .PHONY: Linux_install Linux_update

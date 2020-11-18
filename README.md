@@ -24,5 +24,7 @@ powered by `metaL`
 
 * https://rurust.github.io/rust_book_ru/
 
-* [\[RUST\] язык программирования #1 \[введение\] установка, первая программа](https://www.youtube.com/watch?v=IUGldJLUHSc)
+[\[RUST\] язык программирования
+* #1 \[введение\] установка, первая программа](https://www.youtube.com/watch?v=IUGldJLUHSc)
+* #2 \[переменные\](https://www.youtube.com/watch?v=bKK8rPORyZo)
 

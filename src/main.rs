@@ -1,5 +1,6 @@
 // \ <section:main>
 fn main() {
-    println!("Hello")
+    let x = 6;
+    println!("Hello {}", x);
 }
 // / <section:main>

@@ -13,6 +13,9 @@
     ],
     // / <section:commands>
     "files.watcherExclude": {
+        // \ <section:watcher>
+        "**/target/**": true,
+        // / <section:watcher>
     },
     "files.exclude": {
     },

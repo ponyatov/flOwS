@@ -5,4 +5,5 @@
 
 github: https://github.com/ponyatov/flOwS
 
-*** powered by `metaL`
+***
+powered by `metaL`

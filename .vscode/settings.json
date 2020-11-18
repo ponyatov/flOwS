@@ -1,0 +1,27 @@
+{
+    // \ <section:commands>
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.f12",
+            "sequence": [
+                "workbench.action.files.saveAll",
+                {"command": "workbench.action.terminal.sendSequence","args": {"text": 
+                    "\u000Dmake -f Makefile all\u000D"
+                }}
+            ]
+        },
+    ],
+    // / <section:commands>
+    "files.watcherExclude": {
+    },
+    "files.exclude": {
+    },
+    "files.associations": {
+        // \ <section:assoc>
+        "**/Makefile.t": "makefile",
+        "**/*.html.t": "html",
+        // / <section:assoc>
+    },
+    "editor.tabSize": 4,
+    "browser-preview.startUrl":"file:///home/ponyatov/T/docs/index.html",
+}

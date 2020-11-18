@@ -18,9 +18,13 @@ RUSTUP       = $(RBIN)/rustup
 RUSTC        = $(RBIN)/rustc
 CARGO        = $(RBIN)/cargo
 # / <section:tools>
+# \ <section:obj>
+S += $(SRC)/main.rs
+# / <section:obj>
 # \ <section:all>
 .PHONY: all
-all:
+all: $(CARGO) $(S)
+	$< run
 # / <section:all>
 # \ <section:test>
 .PHONY: test
